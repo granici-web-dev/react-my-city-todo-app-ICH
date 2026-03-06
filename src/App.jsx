@@ -1,7 +1,16 @@
 import './App.css';
+import { Routes, Route, Navigate } from 'react-router-dom';
+import Home from './pages/home'
+import Layout from './components/layout';
 
 function App() {
-  return <></>;
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+      </Route>
+    </Routes>
+  );
 }
 
 export default App;
