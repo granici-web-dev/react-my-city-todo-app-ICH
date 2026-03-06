@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import Headline from '../../components/headline';
+import Hero from '../../components/hero'
 
 function Home() {
   return (
-    <div>
-      <h1 className="text-4xl font-bold">Добро пожаловать в наш город!</h1>
-      <p>Откройте для себя удивительные места и достопримечательности</p>
-      <Link>Исследовать категории →</Link>
+    <div className="max-w-7xl m-auto w-full px-4">
+      <Hero />
+      <Headline title={'Почему стоит посетить наш город?'} />
     </div>
   );
 }
