@@ -2,12 +2,12 @@ const navMenu = [
   {
     id: 1,
     title: 'Главная',
-    to: '/'
+    to: '/',
   },
   {
     id: 2,
     title: 'Категории',
-    to: '/category'
+    to: '/categories',
   },
 ];
 
