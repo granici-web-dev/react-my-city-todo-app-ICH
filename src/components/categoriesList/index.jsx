@@ -3,7 +3,7 @@ import initialCategories from '../../data/categories';
 
 function CategoriesList() {
   return (
-    <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8 mt-6">
+    <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-8 mt-6 mb-6">
       {initialCategories.map((category) => {
         return (
           <Link
